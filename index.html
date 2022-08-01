@@ -5,8 +5,153 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+    <style>
+        
+        body {
+           background-color: hsl(225, 100%, 94%); 
+           font-family: 'Red Hat Display' sans-serif;
+           margin-top: 100px;
+           margin-bottom: 100px;
+        }
+        .card {
+            width: 375px;
+            background-color: hsl(225, 100%, 98%);
+            border-radius: 20px;
+            padding-bottom: 30px;
+            margin: auto;
+        }
+        
+        .image {
+            width: 100%;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+        }
+        .card-detail {
+            text-align: center;
+            color: hsl(224, 23%, 55%);
+            
+        } 
+
+        h3 {
+            color: black;
+            font-size: 22px;
+            font-weight: 900;
+        }
+
+        .body-card {
+             display: flex;
+             justify-content: space-evenly;
+             align-items: center;
+             background-color: hsl(0, 0%, 95%);
+             border-radius: 10px;
+             margin: 30px;
+        }
+
+        .music-icon {
+            width: 100%;
+            margin-bottom: -10px;
+        }
+        
+        .annual p {
+            
+            margin-top: -3px;
+            margin-left: -20px;
+            font-size: 15px;
+            font-weight: 700;
+            color: hsl(224, 23%, 55%);
+
+        }
+
+        .annual h5 {
+            
+            margin-bottom: 7px;
+            margin-left: -20px;
+            color: hsl(223, 47%, 23%);
+            font-size: 15px;
+            font-weight: 900;
+        }
+
+        .link {
+            color: hsl(245, 75%, 52%);
+            font-size: 16px;
+            font-weight: 900;
+        }
+
+        .text {
+            background-color: hsl(245, 75%, 52%);
+            color: white;
+            padding: 1px 20px;
+            text-align: center;
+            font-size: 15px;
+            font-weight: 900;
+            border-radius: 15px;
+            margin: 0 30px;
+            box-shadow: 10px 15px 5px rgb(51, 51, 194, 0, 15);
+        }
+
+        .order {
+            margin-bottom: -30px;
+            text-align: center;
+            color: hsl(224, 23%, 55%);
+            font-size: 18px;
+            font-weight: 900;
+        }
+
+        
+        
+        
+            
+        
+    </style>
 </head>
 <body>
-    
+    <section class="card">
+
+    <div class="head">
+    <div class="image-container">
+    <img class="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFtv_9IHPtbsI5PZxfaY4drCvVXbLrvitc838ara1MWb8wlH1swsC3RfNnVz7XXjbalWw&usqp=CAU" alt="image">
+    </div>
+
+    <div class="card-detail">
+        <h3>Order Summary</h3>
+        <p>
+            You can now listen to millions of<br>
+            songs, audiobooks, and podcasts on<br>
+            any device anywhere you like!
+        </p>
+    </div>
+    </div>
+
+    <div class="body-card">
+        <div>
+        <img class="icon-image" src="images/icon-music.svg" alt="music-icon">
+        </div>
+
+        <div class="annual">
+             <h5>Annual Plan</h5>
+             <p>$59.99/year</p>
+        </div>
+      
+        <div>
+            <a class="link" href="change">change</a>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="text">
+            <p>
+                Proceed to Payment
+            </p>
+        </div>
+    </div>
+
+    <div class="order">
+         <p>
+            Cancel Order
+         </p>
+    </div>
+    </section>
 </body>
 </html>
